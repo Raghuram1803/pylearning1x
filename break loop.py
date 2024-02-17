@@ -6,8 +6,8 @@
    #     break
    # count= count+1
 
-#while
-i= 1 #from where you want to print
-while i<=5: #condition
- print ("Raghuram",i ) # what you want to print
- i = i+1 #increment
+#Break if using for loop
+for counter in range(1,10):
+    if counter ==5:
+        break
+    print(counter)
